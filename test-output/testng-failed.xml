@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="Tests.Signup">
+        <methods>
+          <include name="intialsebrowser"/>
+        </methods>
+      </class> <!-- Tests.Signup -->
+      <class name="Tests.Signup$Signuppage">
+        <methods>
+          <include name="Addproduct"/>
+          <include name="Searchbar"/>
+          <include name="Verifycartafterlogin"/>
+          <include name="Membershipandsubscription"/>
+          <include name="closebrowser"/>
+          <include name="Selectlanguage"/>
+          <include name="Proceedcheckout"/>
+          <include name="Registrypage"/>
+          <include name="Productquantity"/>
+          <include name="Findlocation"/>
+          <include name="Productdetailspage"/>
+          <include name="Beforecheckout"/>
+          <include name="Cartpage"/>
+          <include name="Viewcategory"/>
+          <include name="Dropdownbox"/>
+          <include name="intialisebrowser"/>
+          <include name="Sginin"/>
+          <include name="Testcasespage"/>
+          <include name="Cartbrand"/>
+          <include name="Musiclibrary"/>
+          <include name="Giftcardpage"/>
+          <include name="Recommendeditems"/>
+          <include name="Orderandreturn"/>
+          <include name="Scrollupusingarrow"/>
+          <include name="Scrollupwithoutarrow"/>
+          <include name="Removefromcart"/>
+        </methods>
+      </class> <!-- Tests.Signup$Signuppage -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
